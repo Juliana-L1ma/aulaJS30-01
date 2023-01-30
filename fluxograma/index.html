@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS 30/01 exemplo de uso de variáveis</title>
+</head>
+
+<body>
+    
+</body>
+<script>
+    var num1 = prompt('Digite um numero');
+    var num2 = prompt('Digite outro numero');
+
+    if(num1 > num2){
+        document.write('O maior é ' + num1)
+    }else{
+        if(num1 < num2){
+            document.write('O maior é ' + num2)
+        }else{
+            document.write('São iguais ')
+    
+        }
+    }
+    
+</script>
+
+<!-- <script>
+    var anoNascimento = prompt('Qual o ano que você nasceu ?');
+    var anoAtual = 2023;
+
+if (anoAtual - anoNascimento >= 18 ){
+   document.write('Sucesso! você é de maior');
+}else{
+    document.write('error ')
+}
+
+//data válida = a pessoa tem que ter nascido dps de 1950 e antes de 2003
+
+if ( (anoNascimento > 1950 ) &&  ( anoNascimento <= 2003 ) ){
+   idade =  anoAtual - anoNascimento ;
+   document.write('<br>Você tem : ' + idade + ' anos')
+}else{ 
+    document.write('<br> error sua data de nascimento é inválida')
+}
+</script> -->
+
+</html>
